@@ -1,9 +1,14 @@
 {
-  "name": "lab02_cart",
+  "name": "node-http-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "description": "Node.js example server starter project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
 }
