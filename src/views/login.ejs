@@ -1,0 +1,16 @@
+<%- include('header'); -%>
+ <div class="content">
+  <form action="/api/login" method="GET">
+    Username:<br>
+    <input type="text" username="username" size="30" maxlength="30" required>
+    <br>
+
+    Password:<br>
+    <input type="text" password="password" size="30" maxlength="30" required>
+    <br>
+
+    <input type="submit" value="login">
+
+  </form>
+ </div>
+<%- include('footer'); -%>

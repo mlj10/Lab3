@@ -1,0 +1,60 @@
+<%- include('header'); -%>
+ <div class="content">
+  <form action="/api/register" method="POST">
+    
+    Username:<br>
+    <input type="text" username="username" size="30" maxlength="30" required>
+    <br>
+
+    Password:<br>
+    <input type="text" password="password" size="30" maxlength="30" required>
+    <br>
+
+    Society:<br>
+    <input type="text" society="society" size="30" maxlength="100" required>
+
+    contact:<br>
+    <input type="text" contact="John Smith" size="30" maxlength="30" required>
+    <br>
+
+   address:<br>
+    <input type="text" address="123 fake street" size="30" maxlength="100" required>
+    <br>
+
+    zipcode:<br>
+    <input type="text" zipcode="77330" size="30" maxlength="5" required>
+    <br>
+
+    City:<br>
+    <input type="text" city="Edinburgh" size="30" maxlength="100" required>
+    <br>
+
+    Phone:<br>
+    <input type="text" phone="0778551863" size="30" maxlength="10" required>
+    <br>
+
+    Fax:<br>
+    <input type="text" fax="0102030405" size="30" maxlength="10" required>
+    <br>
+
+    confirmation:<br>
+    <input type="number" confirmation="0" size="30" maxlength="30" >
+    <br>
+
+    Payment:<br>
+    <input type="text" payment="Draft + 30 days" size="30" maxlength="30" >
+    <br>
+
+    Informations:<br>
+    <input type="text" informations="" size="30" maxlength="200" >
+    <br>
+
+    Max outstanding:<br>
+    <input type="number" max_outstanding="250000" size="30" maxlength="30" required>
+    <br>
+
+    <input type="submit" value="register">
+
+  </form>
+ </div>
+<%- include('footer'); -%>
